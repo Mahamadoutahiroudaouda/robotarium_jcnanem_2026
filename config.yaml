@@ -1,0 +1,16 @@
+simulation:
+  drone_count: 500
+  arena_size: [100, 100, 100]  # x, y, z in meters
+  fps: 30
+  duration_limit: 1800  # 30 minutes in seconds
+
+visual:
+  drone_size: 20
+  default_color: "#FFFFFF"
+  background_color: "#000000"
+  show_trails: false
+  trail_length: 10
+
+system:
+  log_level: "INFO"
+  output_dir: "outputs/videos"
